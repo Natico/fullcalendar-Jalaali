@@ -5,7 +5,9 @@
 <link href='../fullcalendar.css' rel='stylesheet' />
 <link href='../fullcalendar.print.css' rel='stylesheet' media='print' />
 <script src='../lib/moment.min.js'></script>
+<script src='../lib/moment-jalaali.js'></script>
 <script src='../lib/jquery.min.js'></script>
+<!--<script src='../lib/jquery/jquery-2.2.0.min.js'></script>-->
 <script src='../fullcalendar.min.js'></script>
 <script src='../locale-all.js'></script>
 <script>
@@ -98,6 +100,7 @@
 		$('#locale-selector').on('change', function() {
 			if (this.value) {
 				$('#calendar').fullCalendar('option', 'locale', this.value);
+				$('#calendar').fullCalendar('option', 'isJalaali', (this.value == 'fa' ? true : false));
 			}
 		});
 	});
