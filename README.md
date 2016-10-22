@@ -25,5 +25,5 @@ Email me if you find any issue or if you want to help me.
 Description
 ---------------
 This project is update of project Mr. Ehsan Danesh .
-He has worked on the project, on version 2.6 you can find his github in below link :
+He has worked on the project, on version 2.6 you can find his github in this link :
 https://github.com/ehsandanesh
