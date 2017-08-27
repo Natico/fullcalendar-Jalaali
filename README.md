@@ -27,3 +27,13 @@ Description
 This project is update of project Mr. Ehsan Danesh .
 He has worked on the project, on version 2.6 you can find his github in this link :
 https://github.com/ehsandanesh
+
+Donate
+---------------
+If this project has contributed to the progress of your project, you can also help to improve this project.
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](#)
+
+اگر این پروژه به پیشرفت پروژه شما کمک کرده است ، شما هم می توانید برای پیشرفت این پروژه کمک کنید
+
+[![bitweb](http://bitweb.ir/demos/img/PayPing.png)](https://www.payping.ir/bitweb)
