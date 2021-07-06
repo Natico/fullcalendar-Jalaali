@@ -7995,11 +7995,12 @@ var View = FC.View = Class.extend(EmitterMixin, ListenerMixin, {
 	// Subclasses can override. Must return all properties.
 	computeRange: function(date) {
 		var intervalUnit = computeIntervalUnit(this.intervalDuration);
-		var intervalStart = date.clone().startOf(toJalaaliUnit(intervalUnit,this.isJalaali));
 		if (this.isJalaali && ( intervalUnit === "year" || intervalUnit === "month")) {
+			var intervalStart = date.clone().startOf(toJalaaliUnit(intervalUnit, this.isJalaali));
 			var intervalEnd = intervalStart.clone().add(1,toJalaaliUnit(intervalUnit,this.isJalaali));
 		}
 		else {
+			var intervalStart = date.clone().startOf(intervalUnit);
 			var intervalEnd = intervalStart.clone().add(this.intervalDuration);
 		}
 		var start, end;
